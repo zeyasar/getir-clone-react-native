@@ -39,7 +39,7 @@ function ProductDetailsScreen(props) {
     >Detaylar</Text>
     <DetailProperty/>
     </ScrollView>
-    <CardButton/>
+    <CardButton item={product}/>
    </View>
   )
 }

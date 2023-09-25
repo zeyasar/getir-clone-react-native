@@ -23,7 +23,7 @@ const DetailProperty = () => {
         flexDirection:'row',
         justifyContent:'space-between',
     }}>
-        <Text style={{color:index == 0 ? 'black' :'#687482',
+        <Text style={{color:index == 0 ? '#4e4e4e' :'#687482',
         fontWeight: index===0? '400' :'500',
         fontSize:index===0? 11:13
     }}>{detail}</Text>
