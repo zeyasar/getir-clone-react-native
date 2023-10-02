@@ -16,7 +16,7 @@ function MainCategories() {
         <View style={styles.listContainer}>
             {
                 categories.map((item) => (
-                    <CategoryItem key={item.id} item={item}/>
+                    <CategoryItem testID="category-item" key={item.id} item={item}/>
                 ))
             }
             
